@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <style>
+        :root
+        /*global variable*/
+        {
+            --col: blue;
+            --Bcol: lightgray;
+        }
+
+        h1{
+            --col: purple;
+            /*local variable. local variable will get first priority over global*/
+            color: var(--col);
+        }
+        P{
+            color:var(--col);
+            Background-color:var(--Bcol);
+        }
+</style>
+</head>
+
+<body>
+    <h1>this is an example of local and globle variable</h1>
+    <p> The var() function in CSS is used to insert the custom property value. </p>
+</body>
+
+</html>

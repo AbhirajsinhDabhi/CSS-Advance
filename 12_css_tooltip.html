@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tooltip{
+            display: inline-block;
+            border-bottom: 1px dashed block;
+        }
+        .tooltiptxt{
+            visibility: hidden;
+            width: 20px;
+            background-color: black;
+            color: white;
+        }
+        .tooltip:hover .tooltiptxt{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="tooltip">hover
+        <span class="tooltiptxt">
+            Extra Info
+        </span>
+    </div>
+</body>
+</html>

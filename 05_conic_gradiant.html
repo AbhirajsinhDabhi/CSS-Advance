@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            margin: 10px;
+            position: relative;
+        }
+
+        .p1 {
+            background-image: conic-gradient(purple, lightpink, lightblue);
+        }
+
+        .p2 {
+            background-image: conic-gradient(purple 45deg, lightpink 90deg, lightblue 360deg);
+        }
+
+        .p3 {
+            background-image: conic-gradient(purple 0deg,purple 90deg, lightpink 90deg,lightpink 180deg, lightblue 180deg,lightblue 270deg,green 270deg);
+        }
+
+        .p4 {
+            background-image: conic-gradient(from 90deg, purple, lightpink, lightblue);
+        }
+
+        .p5 {
+            background-image: repeating-conic-gradient(black 50%, red 55%,lightblue 60%);
+            border-radius: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="p1">hello</div>
+    <div class="p2">hello</div>
+    <div class="p3">hello</div>
+    <div class="p4">hello</div>
+    <div class="p5">hello</div>
+</body>
+
+</html>

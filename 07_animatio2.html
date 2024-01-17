@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: relative;
+            animation-name: exa;
+            animation-duration: 10s; 
+            animation-iteration-count: infinite;
+        }
+        @keyframes exa{
+            0%{
+                background-color: blue;
+                left: 10px;
+                top:0px
+            }
+           25%{
+                background-color: aqua;
+                left: 200px;
+                top:0px
+            }
+            50%{
+                background-color: grey;
+                left: 200px;
+                top:200px
+            }
+            75%{
+                background-color: lightgreen;
+                left: 0px;
+                top:200px
+            }
+            100%{
+                background-color: lightseagreen;
+                left: 0px;
+                top:0px
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
